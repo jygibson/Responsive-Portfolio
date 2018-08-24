@@ -155,27 +155,67 @@ h3 {
 
 @media screen and (max-width:980px){
     .content {
-        width: 900px;
+        width: 700px;
         margin: 20px;
+    }
+    #fixed {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    ul {
+        padding-right: 50px;
     }
 
 }
 
 @media screen and (max-width:768px) {
+    
     .content {
-        width: 600px;
-        margin: 10px;
-        padding-left:40px;
+        width: 600px
           }
 
+    .hangman {
+        float: left;
+        width: 270px;
+        margin: 3px;
+    }
+
+    .rpg-game {
+        float: left;
+        width: 270px;
+        margin: 3px;
+    }
+
+    .trivia {
+        float: left;
+        width: 270px;
+        margin: 3px;
+    }
+
+    .rutgers {
+        float: left;
+        width: 270px;
+        margin: 3px;
+    }
+
+    .rpg-game {
+        float: left;
+        width: 270px;
+        margin: 3px;
+    }
+
     ul {
-        padding-right: 0px;
+        padding-right: 150px;
         font-size: 15px;
     }
 
     #fixed {
         position: absolute;
-        left:auto;
+        left:20px;
     }
 
 }
@@ -184,27 +224,38 @@ h3 {
 
     #fixed {
         position: absolute;
-        top: 0px;
-        padding-left:201px;
-        padding-right: 201px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        padding-left: 200px;
     }
        
        ul {
-           padding-top: 20px;
-           padding-left: 185px;
-           padding-right: 185px;
+           width: 100%;
+           height: 90px;
+           padding-top: 80px;
+           padding-right:200px;
        }
-
+ hr {
+     width: 100%;
+ }
        .content{
-        height:1250px;
+           width: 600px;
+           display:inline-flex;
+           display: flex;
+           flex-direction: column;
+           flex: wrap;  
+           overflow: auto;
        }
+img {
+    width: 550px;
+}
 
-       img {
-           width: auto;
-           height: auto;
-       }
+h3 {
+    width: 550px;
+    height: 75px;
+    line-height: 75px;
+}
 
-       .footer {
-           margin-top: 50px;
-       }
 }

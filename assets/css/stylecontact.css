@@ -123,14 +123,22 @@ h1 {
 
 @media screen and (max-width:980px){
     .content {
-        width: 700px;
+        width: 500px;
         margin: 20px;
   
+    }
+    ul {
+        height:20px;
+        padding-right: 100px;
+        font-size: 16px;
     }
 
     #fixed {
         position: absolute;
-        left: 10px;
+        top: 0;
+        left:20px;
+        height: 100px;
+        line-height: 100px;
     }
 
 }
@@ -142,15 +150,18 @@ h1 {
         padding-left:50px;
           }
 
-    ul {
-        padding-right: 100px;
-        font-size: 15px;
-    }
-
-    #fixed {
-        position: absolute;
-        left:50px;
-    }
+          ul {
+            height:20px;
+            padding-right: 50px;
+            font-size: 18px;
+        }
+    
+        #fixed {
+            position: absolute;
+            left:20px;
+            height: 100px;
+            line-height: 100px;
+        }
 
 }
 
@@ -163,22 +174,22 @@ h1 {
     #fixed {
         position: absolute;
         top: 0px;
-        padding-left: 160px;
-        padding-right: 170px;
+        left: 0px;
+        width: 100%;
+        padding-left: 200px;
 
     }
        
        ul {
-           padding-top: 20px;
+           padding-top: 70px;
             width: 100%;
+            font-size: medium;
+            padding-right: 200px; 
        }
 
 
        .footer {
-           margin-top: 50px;
-       }
-
-       .footer {
-           margin-top: 50px;
+           margin-top: 100px;
+           
        }
 }
